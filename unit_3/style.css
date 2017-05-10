@@ -1,40 +1,14 @@
-body {
-
-	background-color: #969696;
-	background: 100px;
-}
-
-h1 {
-	
+body { 
 	text-align: center;
+	background: url("http://farm8.staticflickr.com/7061/6888234819_8f837c405d_z.jpg");
+	background-size: cover;
 	color: #991FE0;
 	font-family: Helvetica;
-	font-weight: bold;
-	font-size: 48px;
+}
+hr {
+	width: 200px;
 }
 
-p, ul, li {
-	
-	text-align: center;
-	color: #991FE0;
-	font-family: Helvetica;
-	font-weight: normal;
-	font-size: 20px;
-	text-decoration: none;
-}
-
-img { 
-
-	background-image: cover;
-}
-
-#slogan {
-
-	text-align: center;
-	color: #991FE0;
-	font-family: Helvetica;
-	font-weight: normal;
+p {
 	font-size: 22px;
-	font-style: italic;
 }
-
