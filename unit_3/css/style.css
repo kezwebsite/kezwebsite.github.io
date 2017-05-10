@@ -1,35 +1,55 @@
-body {
+body { 
+	margin: 50px 200px 40px 60px; 
+	text-align: justify;
+	background: url("https://amandashabbychic.files.wordpress.com/2013/08/il_570xn-3039686411.jpg");
+	background-size: cover;
+	color: #010667;
+	font-family: Helvetica;
 
-	background-color: #969696;
 }
 
-h1 {
+h2 {
+	text-decoration: italic;
+}
+
+ul {
+
+	text-align: left; 
+
+}
 	
-	color: #991FE0;
-	font-family: Helvetica;
-	font-weight: bold;
-	font-size: 16px;
+li, img { 
+text-align: left; 
+font-family: Helvetica;
+font-size: 18px;
 }
 
-p, ul, li {
-	
-	color: #991FE0;
-	font-family: Helvetica;
-	font-weight: normal;
-	font-size: 13px;
+img {
+
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 200px;
+	padding-left: 240px;
+	padding-top: 40px;
+
+	}
+
+hr {
+	width: 700px;
 }
 
-img { 
+p {
+	text-align: justify;
+	font-size: 20px;
 
-	background-image: cover;
 }
 
-#slogan {
 
-	color: #991FE0;
-	font-family: Helvetica;
-	font-weight: normal;
-	font-size: 13px;
-	font-style: italic;
+a {
+	text-decoration: underline;
+	color: #010667;
 }
+
+
 
