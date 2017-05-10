@@ -1,0 +1,35 @@
+body {
+
+	background-color: #969696;
+}
+
+h1 {
+	
+	color: #991FE0;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+p, ul, li {
+	
+	color: #991FE0;
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+img { 
+
+	background-image: cover;
+}
+
+#slogan {
+
+	color: #991FE0;
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 13px;
+	font-style: italic;
+}
+

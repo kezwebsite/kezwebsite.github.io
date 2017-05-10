@@ -1,0 +1,40 @@
+body {
+
+	background-color: #969696;
+	background: 100px;
+}
+
+h1 {
+	
+	text-align: center;
+	color: #991FE0;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+p, ul, li {
+	
+	text-align: center;
+	color: #991FE0;
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+img { 
+
+	background-image: cover;
+}
+
+#slogan {
+
+	text-align: center;
+	color: #991FE0;
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 22px;
+	font-style: italic;
+}
+
