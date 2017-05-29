@@ -1,54 +1,79 @@
-body { 
-	margin: 50px 200px 40px 60px; 
-	text-align: justify;
-	background: url("https://amandashabbychic.files.wordpress.com/2013/08/il_570xn-3039686411.jpg");
-	background-size: cover;
-	color: #010667;
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+	background: url(images/peach_rose.jpg); 
+	background-size: cover; 
+	background-color: #ffffff;
+	font-size: 20px;
 	font-family: Helvetica;
+	text-align: justify;
+	color: #010667;
+}
+
+main {
+
+	margin: 40px 200px 40px 60px;
 
 }
+
+header {
+
+	margin: 50px 200px 40px 30px;
+
+}
+
+h1, h2, p {
+	margin: 10px;  
+	line-height: 1.25em;
+}
+
 
 h2 {
 	text-decoration: italic;
 }
 
+
 ul {
 
 	text-align: left; 
-
 }
 	
-li, img { 
+li { 
 text-align: left; 
 font-family: Helvetica;
 font-size: 18px;
 }
 
-img {
-
-	position: absolute;
-	display: block;
-	width: 200px;
-	height: 200px;
-	padding-left: 240px;
-	padding-top: 50px;
-
-	}
 
 hr {
-	width: 700px;
-}
-
-p {
-	text-align: justify;
-	font-size: 20px;
-
+	width: 600px;
+	margin: 14px;
 }
 
 
 a {
 	text-decoration: underline;
 	color: #010667;
+}
+
+
+footer {
+
+	margin: 50px 200px 40px 30px;
+}
+
+
+
+.coffee {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	padding-left: 240px;
+	padding-top: 50px;
 }
 
 
