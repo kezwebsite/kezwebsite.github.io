@@ -83,8 +83,7 @@ a {
 
 
 #listofaves {
-
-	object-fit: left;
+	display: inline;
 
 }
 
@@ -94,7 +93,6 @@ a {
 	position: relative;
 	padding-top: 40px;
 	padding-right: 2px;
-	padding-left: 450px;
 
 
 }
