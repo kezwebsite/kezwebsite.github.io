@@ -22,6 +22,20 @@ header {
 	
 }
 
+#mantra {
+	font-family: 'Petit+Formal+Script' serif;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+h1 {
+	padding-top: 10px;
+	padding-left: 40px;
+	font-family: 'Petit+Formal+Script' serif;
+	font-size: 22px;
+}
+
 h4 {
 	font-family: 'Petit+Formal+Script';
 	font-size: 24px;
@@ -39,8 +53,9 @@ main {
 
 p {
 	font-family: 'Petit+Formal+Script', serif; 
-	padding: 5px 20px 5px 20px;
-	text-align: center;
+	padding: 5px 20px 5px 40px;
+	font-size: 20px;
+	text-align: left;
 	
 }
 
@@ -115,8 +130,9 @@ a {
 
 #lcquote {
 	text-align: center;
-	padding: 18px 40px;
-	line-height: 45px;
+	font-size: 22px
+	padding: 20px 40px;
+	line-height: 40px;
 }
 
 
