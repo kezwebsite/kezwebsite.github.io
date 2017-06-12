@@ -23,6 +23,7 @@ header {
 }
 
 h4 {
+	font-family: 'Petit+Formal+Script';
 	font-size: 24px;
 }
 
@@ -60,8 +61,6 @@ li {
 	list-style-position: inside;
 }
 
-
-
 hr {
 	padding: 0px 20px;
 	
@@ -77,37 +76,41 @@ a {
 .favorites {
 	font-family: 'Petit+Formal+Script', serif; 
 	font-size: 22px;
-	margin: 20px 20px;
+	margin: 0 auto;
 	padding-bottom: 20px;
 
 }
 
+
 #listofaves {
+
 	display: inline-block;
-	margin: auto;
+
 }
 
 #coffee {
 
-	margin: auto;
 	display: inline-block;
+	position: relative;
 	padding-top: 20px;
 	padding-right: 2px;
+	padding-left: 350px;
 
 
 }
 
 #penny {
 
-	margin: auto;
 	display: inline-block;
+	position: relative;
+	padding-top: 20px;
 	padding-right: 2px;
 }
 
 #rose {
 
 	display: inline-block;
-	margin: auto;
+	position: relative;
 	padding-right: 2px;
 	padding-top: 20px;
 }
