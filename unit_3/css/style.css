@@ -39,7 +39,7 @@ h1 {
 
 h4 {
 	font-family: 'Old Standard TT' serif;
-	font-size: 24px;
+	font-size: 22px;
 }
 
 main {
@@ -73,7 +73,7 @@ li {
 	font-size: 22px;
 	padding-top: 10px;
 	padding-left: 15px;
-	line-height: 28px;
+	line-height: 24px;
 	list-style-position: inside;
 }
 
@@ -90,7 +90,7 @@ a {
 
 
 .favorites {
-	font-family: 'Petit+Formal+Script', serif; 
+	font-family: 'Old Standard TT' serif;
 	font-size: 22px;
 	margin: 0 auto;
 	padding-bottom: 20px;
@@ -100,6 +100,7 @@ a {
 
 #listofaves {
 	display: inline;
+	font-family: 'Old Standard TT' serif;
 
 }
 
@@ -130,19 +131,20 @@ a {
 }
 
 #lcquote {
-	font-family: 'Petit+Formal+Script', serif; 
+	font-family: 'Old Standard TT' serif;
 	text-align: center;
-	font-size: 22px
-	padding: 20px 40px;
-	line-height: 40px;
+	font-size: 18px
+	padding: 40px 40px;
+	margin: 12px;
+	line-height: 35px;
 }
 
 
 .learnmore {
-	font-family: 'Petit+Formal+Script', serif; 
-	font-size: 22px;
+	font-family: 'Old Standard TT' serif;
+	font-size: 20px;
 	width: 100%;
-	padding: 15px 20px;
+	padding: 20px 20px;
 	text-align: center;
 }
 
