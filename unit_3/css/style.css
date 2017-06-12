@@ -45,7 +45,7 @@ p {
 
 ul {
 
-	padding-left: 40px;
+	padding-left: 50px;
 	padding-top: 20px;
 	line-height: 24px;
 
@@ -79,32 +79,36 @@ a {
 	font-size: 22px;
 	margin: 20px 20px;
 	padding-bottom: 20px;
-	width: 100%;
 
+}
+
+#listofaves {
+	display: inline-block;
+	margin: auto;
 }
 
 #coffee {
 
-	position: relative;
-	display: inline;
+	margin: auto;
+	display: inline-block;
 	padding-top: 20px;
-	padding-right: 3px;
+	padding-right: 2px;
 
 
 }
 
 #penny {
 
-	position: relative;
-	display: inline;
-	padding-right: 3px;
+	margin: auto;
+	display: inline-block;
+	padding-right: 2px;
 }
 
 #rose {
 
-	display: inline;
-	position: relative;
-	padding-right: 3px;
+	display: inline-block;
+	margin: auto;
+	padding-right: 2px;
 	padding-top: 20px;
 }
 
