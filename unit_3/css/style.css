@@ -19,8 +19,7 @@ header {
 #headerpic {
 	display: block;
 	margin: auto;
-	
-	
+		
 }
 
 #mantra {
@@ -33,7 +32,7 @@ header {
 .accent {
   height: 30px; 
   border-style: solid; 
-  border-color: #8c8b8b; 
+  border-color: #989b96; 
   border-width: 1px 0 0 0; 
   border-radius: 20px; 
 } 
@@ -44,12 +43,17 @@ header {
   height: 30px; 
   margin-top: -31px; 
   border-style: solid; 
-  border-color: #8c8b8b; 
+  border-color: #989b96; 
   border-width: 0 0 1px 0; 
   border-radius: 20px; 
 }
 
-
+.about {
+	margin: auto;
+	padding-bottom: 10px;
+	margin: auto;
+	padding-bottom: 20px;
+}
 
 h2 {
 	padding-top: 10px;
@@ -66,7 +70,7 @@ h4 {
 main {
 	font-family: 'Lora', serif;
 	color: #8e8989;
-	font-size: 24px;
+	font-size: 22px;
 	padding: 0px 40px 40px 20px;
 	font-weight: normal;
 	background: linear-gradient(to bottom, #f4ebeb 0%, #ffffff 100%);
@@ -76,7 +80,7 @@ main {
 p {
 	font-family: 'Lora', serif;
 	padding: 5px 20px 5px 40px;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
 	
 }
@@ -100,8 +104,6 @@ li {
 
 hr {
 	
-	padding: 0px 50px;
-
 	
 }
 
@@ -116,29 +118,52 @@ a {
 
 	font-family: 'Lora', serif;
 	font-size: 22px;
-	margin: 0 auto;
 	padding-bottom: 20px;
 
 }
 
 
 #listofaves {
-	display: inline-block;
+	display: block;
+	float: left;
 	font-family: 'Lora', serif;
+	padding-left: 40px;
 
 }
 
 #mepics {
-	display: inline-block;
+	float: right;
+	margin: auto;
+	padding-top: 20px;
+	padding-right: 110px;
+}
+	
+
+#top2 {
+	display: block;
+
+}
+
+#bottom2 {
+	display: block;
+
 }
 
 #coffee {
 
 	display: inline-block;
 	position: relative;
-	padding-top: 40px;
-	padding-right: 2px;
+	padding-top: 1px;
+	padding-right: 1px;
 
+}
+
+#pastel {
+
+	display: inline-block;
+	position: relative;
+	padding-top: 1px;
+	padding-right: 1px;
 
 }
 
@@ -146,36 +171,52 @@ a {
 
 	display: inline-block;
 	position: relative;
-	padding-top: 40px;
-	padding-right: 2px;
+	padding-top: 1px;
+	padding-right: 1px;
 }
 
 #rose {
 
 	display: inline-block;
 	position: relative;
-	padding-right: 2px;
-	padding-top: 40px;
+	padding-right: 1px;
+	padding-top: 1px;
 }
 
-#lcquote {
+#quote {
 	font-family: 'Tangerine', cursive;
 	text-align: center;
-	font-size: 28px
-	padding: 40px 40px;
-	margin: 12px;
-	line-height: 35px;
+	font-size: 30px;
+	line-height: 30px;
+	padding-top: 450px;
+
 }
 
 
 .learnmore {
 	font-family: 'Lora', serif;
 	font-size: 20px;
-	width: 100%;
-	padding: 20px 20px;
-	text-align: center;
+	margin: auto;
 }
 
+#connect {
+	display: inline-block;
+	padding-right: 20px;
+	float: left;
+}
+
+
+#work {
+	display: inline-block;
+	padding-right: 5px;
+	float: center;
+}
+
+#inspiration {
+	display: inline-block;
+	padding-right: 5px;
+	float: right;
+}
 
 footer {
 	font-size: 18px;
