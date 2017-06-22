@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Parisienne|Petit+Formal+Script');
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Lora|Tangerine');
 
 
 *{
@@ -11,49 +10,71 @@
 
 
 header {
-	background-color: #fff2fc;
+	background-color: #f4ebeb;
 	color: #989b96;
-	font-size: 24px;
+	font-size: 22px;
 	
 }
 
 #headerpic {
-	padding-left: 20px;
-	padding-top: 20px;
+	display: block;
+	margin: auto;
+	
 	
 }
 
 #mantra {
-	font-family: 'Old Standard TT' serif;
+	font-family: 'Tangerine', cursive;
 	text-align: center;
-	font-size: 22px;
+	font-size: 28px;
 
 }
 
-h1 {
+.accent {
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+
+.accent:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+
+
+h2 {
 	padding-top: 10px;
 	padding-left: 40px;
-	font-family: 'Old Standard TT' serif;
+	font-family: 'Lora', serif;
 	font-size: 22px;
 }
 
 h4 {
-	font-family: 'Old Standard TT' serif;
+	font-family: 'Lora', serif;
 	font-size: 22px;
 }
 
 main {
-	font-family: 'Old Standard TT' serif;
-	color: #989b96;
+	font-family: 'Lora', serif;
+	color: #8e8989;
 	font-size: 24px;
 	padding: 0px 40px 40px 20px;
 	font-weight: normal;
-	background: linear-gradient(to bottom, #fff2fc 0%, #ffffff 100%);
+	background: linear-gradient(to bottom, #f4ebeb 0%, #ffffff 100%);
 
 }
 
 p {
-	font-family: 'Old Standard TT' serif;
+	font-family: 'Lora', serif;
 	padding: 5px 20px 5px 40px;
 	font-size: 20px;
 	text-align: left;
@@ -78,19 +99,22 @@ li {
 }
 
 hr {
-	padding: 0px 10px;
+	
+	padding: 0px 50px;
+
 	
 }
 
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #989b96;
 }
 
 
 .favorites {
-	font-family: 'Old Standard TT' serif;
+
+	font-family: 'Lora', serif;
 	font-size: 22px;
 	margin: 0 auto;
 	padding-bottom: 20px;
@@ -99,9 +123,13 @@ a {
 
 
 #listofaves {
-	display: inline;
-	font-family: 'Old Standard TT' serif;
+	display: inline-block;
+	font-family: 'Lora', serif;
 
+}
+
+#mepics {
+	display: inline-block;
 }
 
 #coffee {
@@ -131,9 +159,9 @@ a {
 }
 
 #lcquote {
-	font-family: 'Old Standard TT' serif;
+	font-family: 'Tangerine', cursive;
 	text-align: center;
-	font-size: 18px
+	font-size: 28px
 	padding: 40px 40px;
 	margin: 12px;
 	line-height: 35px;
@@ -141,7 +169,7 @@ a {
 
 
 .learnmore {
-	font-family: 'Old Standard TT' serif;
+	font-family: 'Lora', serif;
 	font-size: 20px;
 	width: 100%;
 	padding: 20px 20px;
