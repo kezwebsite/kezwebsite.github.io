@@ -16,7 +16,6 @@ img {
 header {
 	background-color: #f4ebeb;
 	color: #989b96;
-	font-size: 22px;
 	
 }
 
@@ -30,10 +29,11 @@ header {
 hr { 
 
     border: 0;
-    height: 1px;
+    height: .05em;
     color: #c1bbbb;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0));
 }
 
@@ -41,39 +41,43 @@ hr {
 main {
 	font-family: 'Lora', serif;
 	color: #8e8989;
-	font-size: 24px;
-	padding: 10px 100px;
+	font-size: 1.4em;
+	width: 100%
+	margin: auto;
 	font-weight: normal;
 	background: linear-gradient(to bottom, #f4ebeb 0%, #ffffff 100%);
 
 }
 
 .about {
-	padding: 5px 40px 20px 40px;
+	width: 86%;
+	padding: 2% 5%;
 	margin: auto;
-	padding-bottom: 20px;
 }
 
 h4 {
-	margin: auto;
-	padding-top: 5px;
-	padding-left: 65px;
 	font-family: 'Lora', serif;
-	font-size: 22px;
+	font-size: 1.1em;
+	width: 87%;
+	padding-left: 13%;
 }
 
 p {
 	font-family: 'Lora', serif;
-	padding: 5px 70px;
-	font-size: 18px;
+	font-size: .8em;
+	width: 85%;
+	padding-left: 15%;
+	height: 99%
+	padding-top: 1%;;
 	text-align: left;
 	
 }
 
 .favorites {
-
+	width: 80%;
+	padding: 2% 8%;
+	margin: auto;
 	font-family: 'Lora', serif;
-	padding: 0px 80px;
 
 }
 
@@ -87,7 +91,7 @@ p {
 #mepics {
 	float: right;
 	width: 50%;
-	padding: 30px 80px 10px 0px;
+
 }
 	
 
@@ -97,24 +101,27 @@ p {
 	height: 0;
 	padding-bottom: 50%;
 	overflow: hidden;
-	border: 2px solid transparent;
+	border: .1em solid transparent;
 }
 
 #listofaves {
 	float: left;
 	font-family: 'Lora', serif;
-	font-size: 22px;
-	line-height: 28px;
-	width: 50%;
-	padding: 20px 80px;
-
+	font-size: 1em;
+	line-height: 1.12em;
+	width: 39%;
+	padding-left: 11%;
+	height: 97%;
+	padding-top: 2%;
+	padding-bottom: 1%;
 }
 
 
 ul {
-	width: 100%;
+	width: 90%;
 	text-align: left;
-	padding-left: 15px;
+	padding-left: 10%;
+
 }
 
 #heart {
@@ -124,33 +131,37 @@ ul {
 	
 li { 
 	text-align: left;
-	width: 100%;
-	padding-left: 15px;
-	padding-top: 3px;
+	width: 95%;
+	padding-left: 5%;
+	height: 97%;
+	padding-top: 3%;
 	list-style-position: inside;
 }
 
 #quote {
-	width: 100%;
-	padding: 10px 0px;
+	width: 82%;
+	height: 97%;
+	padding: 1.5% 9%;
+	margin: auto;
 	font-family: 'Tangerine', cursive;
 	text-align: center;
-	font-size: 30px;
-	line-height: 30px;
+	font-size: 1.5em;
+	line-height: 1em;
 	color: #989b96;
 
 }
 
 #lenco {
-	padding: 20px 60px;
+	width: 100%;
+	height: 97%;
+	padding: 1.5% 0%;
 }
 
 .learnmore {
 	font-family: 'Lora', serif;
-	font-size: 20px;
-	padding: 0px 0px 20px;
+	font-size: .9em;
 	width: 100%;
-	background-color: turquoise;
+	margin: auto;
 }
 
 .clear:after {
@@ -161,44 +172,55 @@ li {
 }
 
 .meblocks {
-	padding: 10px;
-	width: 100%;
+	width: 90%;
+	padding: 0% 5%;
+	margin: auto;
 	text-align: center;
-
 
 }
 
 h5 {
+	font-size: 1em;
 	color: #989b96;
 	text-align: center;
 	width: 100%;
-	background: purple;
+	height: 98%;
+	padding-bottom: 2%;
+	margin: auto;
 
 }
 
 .iblock {
 	float: left;
 	text-align: left;
-	padding: 0px 20px;
-	width: 33%;
+	width: 33.33%;
+	height: 98%;
+	padding: 1%;
+
 
 }
 
 a {
 	display: block;
-	padding: 5px;
+	margin: auto;
+	width: 98%%;
+	height: 98%;
+	padding: 1%;
 	color: #989b96;
+	font-size: .9em;
 	text-decoration: none;
-	background-color: teal;
+	text-align: center;
 }
 
 
 footer {
-	font-size: 18px;
+	font-size: 1em;
 	color: #989b96;
 	text-align: center;
 	margin: auto;
-	background-color: green;
+	width: 98%;
+	height: 98%;
+	padding: 1%;
 
 }
 
