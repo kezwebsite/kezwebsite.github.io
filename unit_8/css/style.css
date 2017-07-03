@@ -8,6 +8,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-size: 18px;
+}
+
 img {
 	display: block;
 	width: 100%;
