@@ -83,9 +83,9 @@ p {
 
 
 .favorites {
-	width: 76%;
+	width: 70%;
 	height: 96%;
-	padding: 2% 11%;
+	padding: 2% 15%;
 	margin: auto;
 	font-family: 'Lora', serif;
 
@@ -101,6 +101,8 @@ p {
 #mepics {
 	float: right;
 	width: 50%;
+	height: 88%;
+	padding-top: 12%;
 
 }
 	
@@ -119,8 +121,7 @@ p {
 	font-family: 'Lora', serif;
 	font-size: 1em;
 	line-height: 1.12em;
-	width: 39%;
-	padding-left: 11%;
+	width: 50%;
 	height: 97%;
 	padding-top: 2%;
 	padding-bottom: 1%;
